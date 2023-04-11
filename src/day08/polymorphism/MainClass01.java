@@ -1,9 +1,9 @@
 package day08.polymorphism;
 
-import javax.xml.ws.handler.MessageContext.Scope;
 
 import day08.mypac.AKWeapon;
 import day08.mypac.M4A1Weapon;
+import day08.mypac.Scope;
 import day08.mypac.Weapon;
 
 /*
