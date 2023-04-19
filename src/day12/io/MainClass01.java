@@ -20,13 +20,15 @@ import java.util.Calendar;
 public class MainClass01 {
 	public static void main(String[] args) throws IOException {
 		// File 객체 생성
-				File f = new File("C:\\");
+				File f = new File("/");
 				
 				// C 드라이브 하위에 있는 모든 디렉토리 및 파일 반환한다.
 				String[] list = f.list();
 				
 				// Calendar 객체 생성
 				Calendar c = Calendar.getInstance();
+				
+				
 				
 				for(String temp : list) {	// 파일목록 반복문 이용 하나씩 가져오기
 					// temp 명의 디렉토리 또는 파일을 File 객체로 생성
